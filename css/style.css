@@ -51,12 +51,32 @@ ul{
 }
 
 /* Section Portfolio */
-.ms-portfolio{
+.ms_portfolio{
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.ms_card{
+ .ms_portfolio .ms_card{
     background-color: aquamarine;
     height: 200px;
     border-radius: 10px;
+}
+
+/* Section-info */
+.ms_info{
+    background-color: #1abc9c;;
+}
+
+.ms_info-content{
+    /* max-width: 490px; */
+}
+
+.ms_info .ms_card{
+    color: white;
+
+}
+
+/* Section Contact */
+.ms_contact{
+    padding-top: 2rem;
 }
