@@ -79,4 +79,14 @@ ul{
 /* Section Contact */
 .ms_contact{
     padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Footer */
+.ms_footer-top{
+    background-color: #3a546d;
+}
+
+.ms_footer-bottom{
+    background-color: #2c3e50;
 }
