@@ -1,6 +1,23 @@
+/* COMMON */
+.ms_center{
+    text-align: center;
+}
+
+.ms_padding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
 /* Header */
 header{
     background-color: #2c3e50;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
 }
 
 ul{
@@ -10,12 +27,15 @@ ul{
 }
 
 .ms_logo{
-    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .ms_burger{
     text-align: right;
-    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .ms_main-menu ul{
@@ -28,26 +48,45 @@ ul{
     text-decoration: none;
     color: white;
     padding-left: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 
 }
-
-/* COMMON */
-.ms_center{
-    text-align: center;
-}
-
 
 /* Main */
-
-/* Jumbotron */
-.ms_freelancer-info{
-   max-width: 420px;
-   margin: 0 auto;
-
-}
-
 .ms_jumbotron{
     background-color: #1abc9c;
+    color: white;
+}
+
+.ms_jumbotron-content img{
+    width: 200px;
+}
+
+.ms_jumbotron-title{
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.star{
+    vertical-align: middle;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.star::after,
+.star::before{
+    content: '';
+    display: inline-block;
+    max-width: 13%;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.ms_jumbotron-content :last-child{
+    text-transform: uppercase;
 }
 
 /* Section Portfolio */
@@ -68,7 +107,9 @@ ul{
 }
 
 .ms_info-content{
-    /* max-width: 490px; */
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 .ms_info .ms_card{
@@ -80,6 +121,12 @@ ul{
 .ms_contact{
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.ms_contact-content{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1170px;
 }
 
 /* Footer */
