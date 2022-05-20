@@ -54,6 +54,8 @@ ul{
 }
 
 /* Main */
+
+/* Section Jumbotron */
 .ms_jumbotron{
     background-color: #1abc9c;
     color: white;
@@ -90,20 +92,15 @@ ul{
 }
 
 /* Section Portfolio */
-.ms_portfolio{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
- .ms_portfolio .ms_card{
-    background-color: aquamarine;
-    height: 200px;
+.ms_card img{
+    width: 100%;
     border-radius: 10px;
 }
 
 /* Section-info */
 .ms_info{
     background-color: #1abc9c;;
+    color: white;
 }
 
 .ms_info-content{
@@ -112,9 +109,10 @@ ul{
     max-width: 1170px;
 }
 
-.ms_info .ms_card{
+.btn-green{
     color: white;
-
+    background-color: #1abc9c;
+    border-color: white;
 }
 
 /* Section Contact */
