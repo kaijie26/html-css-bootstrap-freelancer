@@ -200,18 +200,41 @@
         </section>
 
         <!-- Section Contact -->
-        <section class="ms_contact">
+        <section class="ms_contact ms_padding">
             <div class="ms_contact-content">
                 <div class="container-fluid">
                     <div class="ms_center">
-                        <h3>CONTACT ME</h3>
-                        <div>stella</div>
+                        <h2>CONTACT ME</h2>
+                        <div class="star"><i class="fa-solid fa-star"></i></div>
         
                     </div>
-        
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non nobis mollitia natus aperiam ullam dolore iusto, fugiat deserunt est nam voluptatem autem dolorum iure commodi saepe facilis officia fugit!
-                    </div>
+                    
+                    <!-- Form -->
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label visually-hidden">Name</label>
+                          <input type="tetx" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="email" class="form-label visually-hidden">Email Address</label>
+                          <input type="tetx" class="form-control" id="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone-number" class="form-label visually-hidden">Phone-number</label>
+                            <input type="tel" class="form-control" id="-phone-number" placeholder="Phone-number">
+                          </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                      
+                        <button type="submit" class="btn btn-lightgreen">Send</button>
+                      
+                    </form>
     
                 </div>
 
